@@ -39,12 +39,16 @@ body {
   top: calc(var(--bird-top) * 1px);
   border-radius: 50%;
 }
+.img {
+  height: 60px;
+  width: 60px;
+}
 
 .pipe {
-  --pipe-width: 50;
+  /* --pipe-width: 50;
   --pipe-left: 100;
   --hole-top: 500;
-  --hole-height: 175;
+  --hole-height: 175; */
   position: absolute;
   top: 0;
   bottom: 0;
