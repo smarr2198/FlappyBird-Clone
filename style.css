@@ -39,10 +39,6 @@ body {
   top: calc(var(--bird-top) * 1px);
   border-radius: 50%;
 }
-.img {
-  height: 60px;
-  width: 60px;
-}
 
 .pipe {
   /* --pipe-width: 50;
@@ -59,7 +55,7 @@ body {
 .pipe > .segment {
   position: absolute;
   width: 100%;
-  background-color: hsl(100, 75%, 50%);
+  background-color: green;
 }
 
 .pipe > .top {
